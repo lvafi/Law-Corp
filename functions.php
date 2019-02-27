@@ -121,6 +121,7 @@ add_action( 'widgets_init', 'law_corp_widgets_init' );
  */
 function law_corp_scripts() {
 	wp_enqueue_style( 'law-corp-style', get_stylesheet_uri() );
+	
 
 	wp_enqueue_script( 'law-corp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -159,3 +160,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ *  set-up.php  inside inc folder not to change  the main functions.php page
+ * */
+require get_template_directory() . '/inc/setup.php';

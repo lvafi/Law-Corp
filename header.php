@@ -26,6 +26,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
+		  
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -45,6 +46,9 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
+	      <div>
+				   <h1><a href="#"><img src='http://localhost:8888/law%20corporation%20Bableen/wp-content/uploads/2019/02/bableen-logo-final-02.png' height='390' width='370'/></a></h1>
+				</div>	 
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'law-corp' ); ?></button>
 			<?php
 			wp_nav_menu( array(
