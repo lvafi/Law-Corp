@@ -5,7 +5,7 @@
 function law_corp_secondary_scripts() {
     
 
-    wp_enqueue_style( 'law-corp-custom-style', get_template_directory_uri() . '/style-custom.css' );
+    wp_enqueue_style( 'law-corp-custom-style', get_template_directory_uri() . '/css/navigation.css' );
     
 
     // Enqueue Font Awesome for menu icons always
