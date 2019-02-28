@@ -1,19 +1,66 @@
 
-/* Navigation Menu for Desktop */
-.menu-menu-1-container ul li a {
-  color:#C1A257;
-  padding: .8rem 1rem;
-  font-family: lowan old;
-  text-transform: uppercase;
-  font-size: 1rem;
-}
-.menu-menu-1-container{
-  margin-right: 5rem;
-}
-.main-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 6rem;
-  background-color: #fafafa;
+/* Navigation Menu */
+
+
+
+
+/*-----------------------------Desktop--------------------------------*/
+@media (min-width:1025px) {
+ 
+  /*main navigation desktop*/
+  .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    margin-top: .1rem;
+    padding-left: 6rem;
+    margin-right: 5rem;
+  }
+  
+  .main-navigation ul{
+    padding:0;
+  }
+  .main-navigation div:first-child h1 {
+    line-height: 0;
+    padding: .4rem 0rem;
+  }
+
+  .main-navigation ul li{
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+  }
+  
+  .main-navigation ul li a {
+    color:#C1A257;
+    font-family: lowan old;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 1.1rem 1.9rem .2rem 0.6rem;
+    display: block;
+    line-height: 1;
+  }
+
+  .main-navigation ul li a::before, .main-navigation ul li a::after  {
+    content: "";
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width:0%;
+    height: 2px;
+    background:red;
+  }
+  .main-navigation ul li a:after{
+    left: 0;
+  }
+  .main-navigation ul li a:hover::after, .main-navigation ul li a:hover::before  {
+    width: 50%;
+  }
+ 
+  .main-navigation div:first-child img {
+    text-align: center;
+  }
+ 
+
 }
