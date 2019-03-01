@@ -26,23 +26,9 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		  
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$law_corp_description = get_bloginfo( 'description', 'display' );
-			if ( $law_corp_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $law_corp_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
+		<i class="fa fa-phone" aria-hidden="true"></i><span class="phone-number">(604) 288-9067</span>
+		<i class="fa fa-envelope" aria-hidden="true"></i><span class="email">Info@bableen-rana.com</span>
+		<i class="fa fa-map-marker" aria-hidden="true"></i>	<div class="address"><span>6325 Fraser Street, Unit 205</span><div>Vancouver, BC V5W 3A3</div></div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
