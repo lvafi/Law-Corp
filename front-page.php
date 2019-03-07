@@ -20,14 +20,24 @@ get_header();
 
     <?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-		      <section>
-              <div class="sponsor-class">
-                  <?php foreach(range(1,12) as $count): ?>
-                  <?php if(get_field('sponsor_logo_' . $count)): ?>
-                      <div><img src="<?php the_field('sponsor_logo_' . $count)?>"/></div>
-                  <?php endif;?>
-                  <?php endforeach; ?>
-              </div>
+		      <section class="xop-container">
+                  <div class="xop-left">
+                     <p>Superior Craftsmanship for Superior Homes</p>
+                     <h2>World class materials</h2>
+                     <span>that embody the true meaning of quality.</span>
+                     <a class="xop-button">Book an appointment</a>
+                  </div>
+                  <div class="xop-right">
+                      <div class="sponsor-class">   
+                          <?php foreach(range(1,12) as $count): ?>
+                          <?php if(get_field('sponsor_logo_' . $count)): ?>
+                              <div><img src="<?php the_field('sponsor_logo_' . $count)?>"/>
+                              </div>
+                          <?php endif;?>
+                          <?php endforeach; ?>
+                      </div> 
+                  </div>   
+                 
           </section>
 
 		
