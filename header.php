@@ -26,14 +26,14 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		<i class="fa fa-phone" aria-hidden="true"></i><span class="phone-number">(604) 288-9067</span>
-		<i class="fa fa-envelope" aria-hidden="true"></i><span class="email">Info@bableen-rana.com</span>
-		<i class="fa fa-map-marker" aria-hidden="true"></i>	<div class="address"><span>6325 Fraser Street, Unit 205</span><div>Vancouver, BC V5W 3A3</div></div>
+		<i class="fa fa-phone" aria-hidden="true"></i><span class="phone-number">604.770.2854</span>
+		<i class="fa fa-envelope" aria-hidden="true"></i><span class="email">info@persaj.com</span>
+		
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 	      <div>
-				   <h1><a href="#"><img src='http://localhost:8888/law%20corporation%20Bableen/wp-content/uploads/2019/02/bableen-logo-final-02.png' height='390' width='370'/></a></h1>
+				   <h1><a href="#"><img src='http://localhost:8888/law%20corporation%20Bableen/wp-content/uploads/2019/03/persaj-logo-01.png'  width='240'/></a></h1>
 				</div>	 
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'law-corp' ); ?></button>
 			<?php

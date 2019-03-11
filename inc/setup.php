@@ -6,6 +6,7 @@ function law_corp_secondary_scripts() {
     
 
     wp_enqueue_style( 'law-corp-custom-style', get_template_directory_uri() . '/css/navigation.css' );
+    wp_enqueue_style( 'law-corp-fonts', get_template_directory_uri() . '/css/fonts.css' );
     wp_enqueue_style( 'law-corp-pages-style', get_template_directory_uri() . '/css/pages.css' );
     wp_enqueue_script( 'law-corp-index', get_template_directory_uri() . '/js/index.js', array('law-corp-slick-js'), '2017', true );
 
@@ -21,8 +22,9 @@ function law_corp_secondary_scripts() {
 
     // Enqueue Font Awesome for menu icons always
     wp_enqueue_script( 'font-awesome-cdn', 'https://use.fontawesome.com/affc2627e0.js', array(),'4.7.0');
+    
 
-
+   
    
    
     
