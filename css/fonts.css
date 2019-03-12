@@ -6,3 +6,7 @@ span.menu-image-title {
  @font-face {
   font-family: 'Super Quick Formula';
   src: url('../assets/fonts/Super-Quick-Formula.ttf');}
+
+  @font-face {
+    font-family: 'Akkurat';
+    src: url('../assets/fonts/Akkurat.ttf');}

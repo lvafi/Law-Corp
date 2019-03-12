@@ -112,3 +112,117 @@ h2 .xop-left{
   border: 0px solid black;
 }
 
+
+/*-----------------------------------------------*/
+.divide-about {
+  /* display: flex; */
+  max-width: 1300;
+  /* padding: 0px 160px; */
+  /* justify-content: space-between; */
+}
+.featured-image-home{
+  padding: 20px;
+  box-sizing: border-box;
+  flex-basis: 60%;
+}
+
+.right-about {
+  padding: 20px;
+  box-sizing: border-box;
+  flex-basis: 40%;
+  text-align: left;
+  font-family: akkurat;
+}
+
+.right-about p {
+  margin-top: -12px;
+  font-family: akkurat;
+}
+.right-about h1{
+  text-transform: uppercase;
+}
+.right-about a{
+  margin-top: -20px;
+  text-transform: uppercase;
+  color: #568F60;
+  
+}
+
+/**----------------------------*/
+.two-first-bleck {
+  font-family: akkurat;
+  /* display: flex; */
+  max-width: 1300;
+  /* justify-content: space-between;
+  padding: 0 160px; */
+  
+}
+.dekton {
+  /* width: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: left;
+}
+
+.silestone {
+  /* width: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: left;
+}
+.dekton h2, .silestone h2, .cambria h2, .sensa h2{
+  color: #568F60;
+}
+
+.cambria {
+  /* width: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: left;
+}
+.sensa {
+  /* width: 50%; */
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: left;
+}
+
+.silestone a, .dekton a, .sensa a, .cambria a { color:#568F60;}
+.silestone a:hover,  .dekton a:hover{
+  color: #000000;
+}
+
+/*-------------------------*/
+.expert {
+  border: 1px #727272 solid;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 900px) {
+  .divide-about{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 160px;
+  }
+  .text-finest-selection{
+    text-transform: uppercase;
+    font-family: akkurat; 
+    font-weight: 700;
+  }
+  .two-first-bleck {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+  }
+  .dekton, .cambria, .sensa,.silestone {
+    width: 50%;
+  }
+  .two-second-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+  }
+}

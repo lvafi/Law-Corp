@@ -36,9 +36,58 @@ get_header();
                           <?php endif;?>
                           <?php endforeach; ?>
                       </div> 
-                  </div>   
-                 
-          </section>
+                  </div> 
+                </section>
+                 <section class="divide-about">  
+                     <div class="featured-image-home">
+                         <?php echo get_the_post_thumbnail(); ?>
+                    </div>
+                     <div class="right-about">
+                         <h1><?php the_field('about_us'); ?></h1>
+                         <p><?php the_field('content'); ?></p>
+                         <a href:#>learn more</a>
+                        
+
+                     </div>
+                </section>
+                <div class="text-finest-selection"> <h2>only the finest selection</h2></div>
+
+                <section class="finest-selection-container">
+                    <div class="two-first-bleck"> 
+                        <div class="dekton">
+                            <img src="<?php the_field('dekton-image')?>"/>
+                            <h2><?php the_field('dekton_title')?></h2>
+                            <p><?php the_field('dekton-content')?><a href:# > EXPLORE</a></p>
+                        </div>
+                        
+                        <div class="silestone">
+                            <img src="<?php the_field('silestone-image')?>"/>
+                            <h2><?php the_field('silestone_title')?></h2>
+                            <p><?php the_field('silestone-content')?><a href:# > EXPLORE </a></p>
+                        </div>
+                    </div>
+
+                    <div class="two-second-block"> 
+                        <div class="cambria">
+                            <img src="<?php the_field('cambria-image')?>"/>
+                            <h2><?php the_field('cambria_title')?></h2>
+                            <p><?php the_field('cambria content')?><a href:# > EXPLORE </a></p>
+                            
+                        </div>
+                        <div class="sensa">
+                            <img src="<?php the_field('sensa-image')?>"/>
+                            <h2><?php the_field('sensa_title')?></h2>
+                            <p><?php the_field('sensa content')?><a href:# > EXPLORE </a></p>
+                            
+                        </div>
+                    </div>   
+                </section>
+                <section class="expert">
+                    <h1 style="color: #568f60">EXPERT CONSULTATIONS</h1>
+                    <p style="color:#727272; margin-top: -20px;">not sure what you want? Book your free consultation today</p>
+                    <h2 style="font-weight:500">604.770.2854</h2>
+                </section>    
+              
 
 		
 
