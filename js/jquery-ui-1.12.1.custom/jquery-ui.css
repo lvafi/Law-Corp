@@ -247,7 +247,7 @@ a.ui-button:focus {
 }
 
 .ui-visual-focus {
-	box-shadow: 0 0 3px 1px rgb(94, 158, 214);
+	box-shadow: 0 0 3px 1px rgb(214, 94, 94) !important;
 }
 .ui-state-active,
 .ui-widget-content .ui-state-active,
@@ -255,14 +255,18 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #003eff;
-	background: #007fff;
+	border: 1px solid #707070 !important;
+	background: #ffffff !important;
 	font-weight: normal;
-	color: #ffffff;
+	color: #568f60 !important;
 }
+/* .ui-accordion-header:focus {
+	border: 3px solid purple !important;
+} */
+
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
-	border: #003eff;
+	border: gray !important;
 	background-color: #ffffff;
 }
 .ui-state-active a,
@@ -554,25 +558,25 @@ a.ui-button:active,
 .ui-corner-top,
 .ui-corner-left,
 .ui-corner-tl {
-	border-top-left-radius: 3px;
+	border-top-left-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
-	border-top-right-radius: 3px;
+	border-top-right-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
-	border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 0px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
 .ui-corner-br {
-	border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 0px;
 }
 
 /* Overlays */

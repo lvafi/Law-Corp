@@ -1,0 +1,59 @@
+.header-about {
+  background-color: #DAE0DB;
+  line-height: 0.4rem;
+  font-family: Akkurat;
+  padding: 40px 10px;
+}
+
+.header-about h4{
+color: #568f60;
+font-weight: 100;
+}
+
+.header-about h1 {
+  letter-spacing: .1rem;
+}
+.mission p {
+  padding-right: 300px;
+  padding-left:300px;
+  font-family:akkurat
+}
+
+section.accordion{
+  margin-right: 300px;
+  padding-left:300px;
+  margin-bottom:100px;
+}
+
+h2.my-h2 h2{
+  font-family: akkurat;
+  float: left;
+  color: #568f60;
+  padding-left: 300px;
+}
+
+
+h3 {
+  position: relative;
+  width: 100%;
+}
+.ui-icon.iconOpen {
+  background: url(../assets/images/arrow-up.png) no-repeat;
+  background-size: 20px;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.ui-icon.iconClosed {
+  background: url(../assets/images/arrow-down.png) no-repeat;
+  background-size: 20px;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
